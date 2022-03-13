@@ -1,3 +1,6 @@
-body {
-  background: red;
-}
+//Settings
+@import "./constans/constans";
+@import "./global/global";
+
+//Block
+@import "./modules/header-navigation";

@@ -1,2 +1,31 @@
-body {
-  background: red; }
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px;
+  line-height: 10px;
+  color: #000000; }
+
+h1,
+h2,
+h3 {
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+.header-navigation {
+  background: #E5E5E5; }
+  .header-navigation__wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0; }
+  .header-navigation__link {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #333333; }
+    .header-navigation__link:not(:last-child) {
+      margin-right: 30px; }
