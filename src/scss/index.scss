@@ -1,3 +1,11 @@
-body {
-  background: red;
-}
+//Settings
+@import "./constans/constans";
+@import "./global/global";
+
+//Сommon styles
+@import "./common/callback-block";
+@import "./common/default-button";
+
+//Block
+@import "./modules/header-navigation";
+@import "./modules/header";

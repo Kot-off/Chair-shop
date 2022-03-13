@@ -1,2 +1,83 @@
-body {
-  background: red; }
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px;
+  line-height: 10px;
+  color: #000000; }
+
+h1,
+h2,
+h3 {
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+.callback-block {
+  display: flex;
+  align-items: center; }
+  .callback-block__tel-number {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin-right: 40px;
+    color: #000000; }
+  .callback-block__callback-button {
+    background: #FFFFFF;
+    border-color: #F13C6E !important; }
+
+.default-button {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  padding: 12px 25px;
+  color: #000000;
+  border-radius: 40px;
+  border: 2px solid;
+  cursor: pointer; }
+
+.header-navigation {
+  background: #E5E5E5; }
+  .header-navigation__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0; }
+  .header-navigation__link {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #333333; }
+    .header-navigation__link:not(:last-child) {
+      margin-right: 30px; }
+
+.header {
+  background: #FFFFFF; }
+  .header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0; }
+  .header__logo-block {
+    display: flex;
+    align-items: center; }
+  .header__logo-title {
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    letter-spacing: 0.1em;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #F13C6E; }
+  .header__search-block {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+    background: #EFEFEF;
+    border-radius: 40px; }
+  .header__search-icon {
+    margin: 5px; }
+  .header__search-input {
+    background: none;
+    border: none;
+    outline: none; }
