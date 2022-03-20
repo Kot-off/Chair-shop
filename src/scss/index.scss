@@ -1,11 +1,21 @@
 //Settings
-@import "./constans/constans";
+@import "./constans/constants";
 @import "./global/global";
 
 //Сommon styles
+@import "./common/products-layout";
+@import "./common/titles";
 @import "./common/callback-block";
 @import "./common/default-button";
+@import "./common/product-card";
+@import "./common/info-block";
+@import "./common/sponsor-item";
 
 //Block
 @import "./modules/header-navigation";
 @import "./modules/header";
+@import "./modules/special-products";
+@import "./modules/recently-watched-product";
+@import "./modules/super-product";
+@import "./modules/info-blocks";
+@import "./modules/sponsors";

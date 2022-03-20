@@ -1,0 +1,41 @@
+.super-product {
+  color: $main-text-color;
+  background-image: url(../assets/super-products/super-products.png);
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    padding: 215px 0;
+  }
+
+  &__main-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    font-weight: bold;
+  }
+
+  &__subtitle {
+    max-width: 35%;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  &__button {
+    max-width: 170px;
+
+    background: transparent;
+    border-color: $primary2;
+    color: $main-text-color;
+  }
+
+  &__title,
+  &__subtitle {
+    margin-bottom: 55px;
+  }
+}
