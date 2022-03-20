@@ -1,3 +1,5 @@
+$wrapper-width: 60%;
+
 * {
   margin: 0;
   padding: 0;
@@ -18,4 +20,15 @@ h3 {
 a {
   text-decoration: none;
   color: $link-text-color;
+}
+
+.wrapper {
+  width: $wrapper-width;
+}
+
+section,
+header,
+footer {
+  display: flex;
+  justify-content: center;
 }
