@@ -1,6 +1,7 @@
 .super-product {
   color: $main-text-color;
   background-image: url(../assets/super-products/super-products.png);
+  background-repeat: no-repeat;
 
   &__wrapper {
     display: flex;

@@ -2,6 +2,7 @@ $copyright-background: #EFEFEF;
 $copyright-text: #828282;
 
 .copyright {
+  background: $copyright-background;
 
   &__wrapper {
     display: flex;
@@ -9,7 +10,6 @@ $copyright-text: #828282;
     align-items: center;
 
     padding: 30px 0;
-    background: $copyright-background;
   }
 
   &__link,
